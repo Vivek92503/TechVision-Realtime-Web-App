@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TechVision</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">TechVision</a>
+            <div class="links">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact-form">Contact</a>
+                <button class="btn">Get Started</button>
+            </div>
+            <button class="menu-btn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="content">
+                <h1>Innovative Solutions for <span class="typing"></span></h1>
+                <p>Transform your business with our cutting-edge technology.</p>
+                <div class="btns">
+                    <button class="btn primary">Start Trial</button>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Tech"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <p>Discover what makes us stand out</p>
+            <div class="grid">
+                <div class="card"><i class="fas fa-bolt"></i><h3>Fast</h3><p>Optimized performance.</p></div>
+                <div class="card"><i class="fas fa-shield-alt"></i><h3>Secure</h3><p>Enterprise-grade encryption.</p></div>
+                <div class="card"><i class="fas fa-cogs"></i><h3>Integrations</h3><p>Connect tools easily.</p></div>
+                <div class="card"><i class="fas fa-chart-line"></i><h3>Analytics</h3><p>Actionable insights.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <p>Choose the right plan</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Starter</h3>
+                    <div class="price">$19<span>/mo</span></div>
+                    <ul><li>10 users</li><li>Basic features</li><li>Email support</li></ul>
+                    <button class="btn" onclick="selectPlan('Starter')">Get Started</button>
+                </div>
+                <div class="card popular">
+                    <div class="badge">Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$49<span>/mo</span></div>
+                    <ul><li>50 users</li><li>Advanced features</li><li>Priority support</li></ul>
+                    <button class="btn primary" onclick="selectPlan('Pro')">Get Started</button>
+                </div>
+                <div class="card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$99<span>/mo</span></div>
+                    <ul><li>Unlimited users</li><li>All features</li><li>24/7 support</li></ul>
+                    <button class="btn" onclick="selectPlan('Enterprise')">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform?</h2>
+            <button class="btn primary">Start Free Trial</button>
+        </div>
+    </section>
+
+    <section id="contact-form" class="contact-form">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="userForm">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Submit</button>
+            </form>
+            <p id="formStatus"></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div><h3>TechVision</h3><p>Innovative solutions for modern businesses.</p></div>
+                <div><h3>Links</h3><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#contact-form">Contact</a></div>
+            </div>
+            <p class="copyright">&copy; 2025 TechVision</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
