@@ -1,11 +1,3 @@
-# TechVision – Real-Time Web App 💡
-
-A fully responsive business landing page with real-time backend support using **Node.js**, **MongoDB**, and **Express.js**.
-
-Sure! Here's your complete `README` written in **normal text format** (not markdown), with only the necessary parts formatted (like commands or file names). This is ideal for copy-pasting directly into a `.txt` or `.md` file depending on how you want to use it.
-
----
-
 # TechVision – Real-Time Web App
 
 ## Introduction
