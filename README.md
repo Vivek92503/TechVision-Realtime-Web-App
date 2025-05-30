@@ -1,6 +1,6 @@
 # TechVision – Real-Time Web App
 
-TechVision is a responsive business landing page with real-time backend integration, featuring a contact form and pricing plans powered by Node.js, Express, and MongoDB."  Let me know if you want variations!
+TechVision is a responsive business landing page with real-time backend integration, featuring a contact form and pricing plans powered by Node.js, Express, and MongoDB.
 
 # Table of Contents
 - [Introduction](#introduction)
