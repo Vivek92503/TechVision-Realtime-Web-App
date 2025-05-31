@@ -112,5 +112,6 @@ Make sure to update the MongoDB connection string in `server.js` with your hoste
 * Ensure CORS is enabled for frontend-backend communication during development
 
 # License
+
 This project is open-source and available under the **MIT License**.
 
