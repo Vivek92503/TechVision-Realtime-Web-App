@@ -73,7 +73,6 @@ TechVision is a modern and responsive business landing page. It is designed for 
 * `npm start` – Starts the backend server on `http://localhost:3000`
 * `npm install` – Installs all required packages based on `package.json`
 
----
 
 # Deployment
 
